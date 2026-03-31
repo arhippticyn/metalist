@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url(background.png) no-repeat center/cover;
+  background: url(image.png) no-repeat center/cover;
   padding: 10px;
 }
 
@@ -29,6 +29,10 @@ body {
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: #006607;
+}
+
+.facts-wrapper h2, .facts-wrapper p {
+  font-size: 25px;
 }
 
 .swiper-button-prev, .swiper-button-next {
