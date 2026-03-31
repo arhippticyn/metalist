@@ -2,7 +2,7 @@ const historyWrapper = document.querySelector('.history-wrapper')
 const factsWrapper = document.querySelector('.facts-wrapper')
 const playersWrapper = document.querySelector('.players-wrapper')
 
-fetch('/history.json')
+fetch('./history.json')
   .then(res => res.json())
   .then(history => {
     history.forEach(i => {
@@ -37,7 +37,7 @@ fetch('/history.json')
   })
   .catch(err => console.error('Помилка завантаження JSON:', err))
 
-fetch('/facts.json')
+fetch('./facts.json')
   .then(res => res.json())
   .then(facts => {
     facts.forEach(i => {
@@ -71,7 +71,7 @@ fetch('/facts.json')
   })
   .catch(err => console.error('Помилка завантаження JSON:', err))
 
-fetch('/players.json')
+fetch('./players.json')
   .then(res => res.json())
   .then(facts => {
     facts.forEach(i => {
