@@ -7,9 +7,12 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
+    "vercel-build": "echo 'No build needed'"
   },
   "dependencies": {
-    "lite-server": "^2.6.1",
     "swiper": "^12.1.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
